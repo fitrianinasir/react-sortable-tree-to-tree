@@ -41,7 +41,10 @@ body{
   background-color: #fffff0;
 }
 
+@media(min-width: 1024px){
+  
 .tree-body{
+  width: 80%;
   display: grid;
   grid-template-columns: repeat(2, 2fr);
   background-color: rgb(255, 255, 116);
@@ -52,10 +55,12 @@ body{
 
 .title{
   text-align: center;
-  margin: 10rem 0 -10rem 0;
+  margin: 8% 0 -8% 0
 }
 
 .info-text{
+  font-size: 14px;
   text-align: left;
-  margin: -11rem 0rem 0 12rem;
+  margin: -9% 0rem 0 10%
+}
 }
